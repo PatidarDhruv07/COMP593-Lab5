@@ -1,4 +1,4 @@
-from Pastebin import post_new_paste
+from pastebin_api import post_new_paste
 from poke_api import get_information_of_pokemon
 import sys
 
