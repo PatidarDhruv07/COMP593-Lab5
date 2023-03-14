@@ -1,9 +1,8 @@
 import requests
 
 def main():
-    info = get_information_of_pokemon("1")
-    print(info)
-    return
+    pokemon_info = get_information_of_pokemon("1")
+    print(pokemon_info)
 
 def get_information_of_pokemon(name_of_pokemon):
     """Collectes the data of given pokemon name from PokeAPI
